@@ -5,4 +5,3 @@ def call(String project, String ImageTag, String hubUser){
         docker image tag ${hubUser}/${project} ${hubUser}/${project}:latest
     """
 }
-
